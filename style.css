@@ -4,21 +4,55 @@
 font-family: 'Montserrat', sans-serif; */
 
 :root {
-    --main-color: #5368a6;
-    --yellow-main: #EDF263;
-    --hot-pink: #D93B92;
-    --light-pink: #F2BDEF;
-    --baby-blue: #C4D0F2;
-   
-  }
+  --main-color: #5368a6;
+  --yellow-main: #edf263;
+  --hot-pink: #d93b92;
+  --light-pink: #f2bdef;
+  --baby-blue: #c4d0f2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+}
 
 /* Header */
+.navbar {
+  padding-bottom: 4.5rem;
+  z-index: 10;
+}
+
+.navbar-brand {
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
 #title {
   background-color: var(--main-color);
+  height: 100vh;
+  position: relative;
 }
 
 .main-heading {
-  font: 900 3rem/1.4 Montserrat, sans-serif;
+  font: 500 3rem/1.4 Montserrat, sans-serif;
+  color: #ffffff;
 }
 
 .container-fluid {
@@ -26,11 +60,69 @@ font-family: 'Montserrat', sans-serif; */
 }
 
 .btn-outline-warning {
-    border: 1px solid var(--yellow-main);
-    color: var(--yellow-main);
+  border: 1px solid var(--yellow-main);
+  color: var(--yellow-main);
 }
 
 .btn-outline-warning:hover {
-    border: 1px solid var(--main-color);
-    background-color: var(--yellow-main);
+  border: 1px solid var(--main-color);
+  background-color: var(--yellow-main);
 }
+
+.header-btn {
+ margin: 40px 0px 40px;
+}
+
+.header-btn-icon {
+    margin-right: 8px;
+}
+
+.btn-visit {
+  background-color: var(--yellow-main);
+  color: #000b18;
+  margin-left: 10px;
+}
+
+.btn-visit:hover {
+  background-color: var(--main-color);
+  color: var(--yellow-main);
+  border: 1px solid var(--yellow-main);
+}
+
+.img-container-dog {
+  position: absolute;
+  bottom: 0px;
+  right: 220px;
+  width: 470px;
+  height: 700px;
+}
+
+.img-container-dog img {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Main */
+/* Features section */
+#features {
+    padding: 30px;
+}
+
+.features-icon {
+    height: 38px;
+    width: 38px;
+    color: var(--hot-pink);
+}
+
+.feature-card {
+    padding: 10px 40px;
+}
+
+
+
+
+
+
+
+
