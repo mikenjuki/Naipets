@@ -3,12 +3,34 @@
 /* font-family: 'Karla', sans-serif;
 font-family: 'Montserrat', sans-serif; */
 
+:root {
+    --main-color: #5368a6;
+    --yellow-main: #EDF263;
+    --hot-pink: #D93B92;
+    --light-pink: #F2BDEF;
+    --baby-blue: #C4D0F2;
+   
+  }
+
+/* Header */
 #title {
-  background-color: #5368a6;
+  background-color: var(--main-color);
 }
 
 .main-heading {
-  font-family: "Montserrat", sans-serif;
-  font-size: 3rem;
-  line-height: 1.4;
+  font: 900 3rem/1.4 Montserrat, sans-serif;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.btn-outline-warning {
+    border: 1px solid var(--yellow-main);
+    color: var(--yellow-main);
+}
+
+.btn-outline-warning:hover {
+    border: 1px solid var(--main-color);
+    background-color: var(--yellow-main);
 }
