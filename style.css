@@ -109,14 +109,28 @@ body {
     padding: 30px;
 }
 
-.features-icon {
-    height: 38px;
-    width: 38px;
-    color: var(--hot-pink);
+.feature-card {
+  padding: 10px 40px;
 }
 
-.feature-card {
-    padding: 10px 40px;
+.features-icon {
+    /* height: 38px;
+    width: 38px; */
+    color: var(--hot-pink);
+    margin-bottom: 16px;
+    transition: color 0.4s ease-in-out;
+}
+
+.features-icon:hover {
+color: var(--light-pink);
+}
+
+.feature-card > h3 {
+  font-weight: 500;
+}
+
+.feature-card > p {
+  font-weight: 300;
 }
 
 
