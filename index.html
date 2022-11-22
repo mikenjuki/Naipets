@@ -87,14 +87,63 @@
 
         <section id="testimonials">
 
-            <h2>When I needed a support system my corgi was there, even when everything seemed to go wrong, I had a
-                purpose to live.</h2>
-            <img src="./assets/images/dog-img.jpg" alt="dog-profile">
-            <em>Sadie, Nairobi</em>
+            <div id="testimonial-carousel" class="carousel slide" data-bs-ride="true" data-bs-interval="3000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <h2>When I needed a support system, Pepper, my parrot, was there even when everything seemed to
+                            go wrong, I had ap purpose to live.
+                        </h2>
+                        <div class="testimonial-image_container">
+                            <img src="./assets/images/person-03.jpg" alt="Jose and his parrot"
+                                class="testimonials-image">
+                        </div>
+                        <em>Jose, Nairobi</em>
+                    </div>
 
-            <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
+                    <div class="carousel-item">
+                        <h2 class="testimonial-text">
+                            I used to be so lonely, especially after my husband passed away, but then I found Molly and
+                            now I have a new found joy. She has really helped.
+                        </h2>
+                        <div class="testimonial-image_container">
+                            <img class="testimonials-image" src="./assets/images/person-02.jpg" alt="lady-profile">
+                        </div>
+                        <em>Penny, Mombasa</em>
+                    </div>
+
+                    <div class="carousel-item">
+                        <h2 class="testimonial-text">
+                            I was an addict before finding Max. My life was in disarray and I had no purpose but now I
+                            have everything to live for. I can't let him down.
+                        </h2>
+                        <div class="testimonial-image_container">
+                            <img class="testimonials-image" src="./assets/images/person-01.jpg" alt="lady-profile">
+                        </div>
+                        <em>Krista, Malindi</em>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#testimonial-carousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#testimonial-carousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#testimonial-carousel" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+            </div>
+
+
 
         </section>
 
@@ -102,10 +151,10 @@
         <!-- Press -->
 
         <section id="press">
-            <img src="./assets/images/TechCrunch.png" alt="tc-logo">
-            <img src="./assets/images/tnw.png" alt="tnw-logo">
-            <img src="./assets/images/bizinsider.png" alt="biz-insider-logo">
-            <img src="./assets/images/mashable.png" alt="Mashable-logo">
+            <img class="press-logo" src="./assets/images/wired-logo.png" alt="tc-logo">
+            <img class="press-logo" src="./assets/images/tnw.png" alt="tnw-logo">
+            <img class="press-logo" src="./assets/images/bizinsider.png" alt="biz-insider-logo">
+            <img class="press-logo" src="./assets/images/mashable.png" alt="Mashable-logo">
 
         </section>
 
@@ -118,29 +167,44 @@
             <p>Simple and affordable price plans for your pets, to keep the worry away.</p>
             <p>These are starter prices. For custom quote, meow or woof us.</p>
 
+            <div class="card">
+                <div class="card-header">
+                    <h3>Dogs</h3>
+                </div>
+                <div class="card-body">
+                    <h2>From $59 / mo</h2>
+                    <p>Bi-weekly vet visits</p>
+                    <p>4 walks per week</p>
+                    <p>Care package annually.</p>
+                    <button type="button">Sign Up</button>
+                </div>
+            </div>
 
-            <h3>Dogs</h3>
-            <h2>From $59 / mo</h2>
-            <p>Bi-weekly vet visits</p>
-            <p>4 walks per week</p>
-            <p>Care package annually.</p>
-            <button type="button">Sign Up</button>
+            <div class="card">
+                <div class="card-header">
+                    <h3>Cats</h3>
+                </div>
+                <div class="card-body">
+                    <h2>From $49 / mo</h2>
+                    <p>Bi-weekly vet visits</p>
+                    <p>Weekly massages and grooming visits</p>
+                    <p>Basic supplies package</p>
+                    <button type="button">Sign Up</button>
+                </div>
+            </div>
 
-
-            <h3>Cats</h3>
-            <h2>From $49 / mo</h2>
-            <p>Bi-weekly vet visits</p>
-            <p>Weekly massages and grooming visits</p>
-            <p>Basic supplies package</p>
-            <button type="button">Sign Up</button>
-
-
-            <h3>Fish</h3>
-            <h2>From $69 / mo</h2>
-            <p>Fish tank maintenance.</p>
-            <p>Aquarium supplies on demand</p>
-            <p>Bi-weekly vet visits</p>
-            <button type="button">Sign Up</button>
+            <div class="card">
+                <div class="card-header">
+                    <h3>Birds</h3>
+                </div>
+                <div class="card-body">
+                    <h2>From $69 / mo</h2>
+                    <p>Fish tank maintenance.</p>
+                    <p>Aquarium supplies on demand</p>
+                    <p>Bi-weekly vet visits</p>
+                    <button type="button">Sign Up</button>
+                </div>
+            </div>
 
         </section>
 
