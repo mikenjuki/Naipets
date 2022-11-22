@@ -32,16 +32,16 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ms-auto">
-                                <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#features">About</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
                             </ul>
                         </div>
                     </nav>
                 </div>
 
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 header-copy">
                         <h1 class="main-heading">A companion, a friend, a sense of purpose.</h1>
                         <button type="button" class="btn btn-outline-warning btn-lg header-btn"><i
                                 class="fa-solid fa-file-pdf header-btn-icon"></i>Brochure</button>
@@ -65,7 +65,7 @@
                 <div class="row">
                     <div class="col-lg-4 text-center feature-card">
                         <i class="fa-solid fa-circle-check features-icon fa-3x"></i>
-                        <h3>Easy to use.</h3>
+                        <h3>No Paperwork</h3>
                         <p>So simple, even your furry friend could do it.</p>
                     </div>
                     <div class="col-lg-4 text-center feature-card">
@@ -90,7 +90,7 @@
             <div id="testimonial-carousel" class="carousel slide" data-bs-ride="true" data-bs-interval="3000">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <h2>When I needed a support system, Pepper, my parrot, was there even when everything seemed to
+                        <h2 class="testimonial-text">When I needed a support system, Pepper, my parrot, was there even when everything seemed to
                             go wrong, I had ap purpose to live.
                         </h2>
                         <div class="testimonial-image_container">
@@ -163,73 +163,100 @@
 
         <section id="pricing">
 
-            <h2>A Plan for Every Pet's Needs</h2>
-            <p>Simple and affordable price plans for your pets, to keep the worry away.</p>
-            <p>These are starter prices. For custom quote, meow or woof us.</p>
+            <div class="pricing-section-header">
+                <h2>A Plan for Every Pet's Needs</h2>
+                <p>Simple and affordable price plans for your pets, to keep the worry away.</p>
+                <p>These are starter prices. For a custom quote, meow or woof us.</p>
+            </div>
+            <!-- row-cols-4 -->
+            <div class="container">
+                <div class="row">
 
-            <div class="card">
-                <div class="card-header">
-                    <h3>Dogs</h3>
-                </div>
-                <div class="card-body">
-                    <h2>From $59 / mo</h2>
-                    <p>Bi-weekly vet visits</p>
-                    <p>4 walks per week</p>
-                    <p>Care package annually.</p>
-                    <button type="button">Sign Up</button>
+                    <div class="col-12 col-md-6 col-lg-4 pricing-column">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Dogs</h3>
+                            </div>
+                            <div class="card-body">
+                                <h2>From $59 / mo</h2>
+                                <p>Bi-weekly vet visits</p>
+                                <p>4 walks per week</p>
+                                <p>Care package annually.</p>
+                                <div class="d-grid mx-auto">
+                                    <button type="button" class="btn btn-outline-primary btn-lg">Sign Up</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 pricing-column">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Cats</h3>
+                            </div>
+                            <div class="card-body">
+                                <h2>From $49 / mo</h2>
+                                <p>Bi-weekly vet visits</p>
+                                <p>Weekly cat spa and grooming.</p>
+                                <p>Basic supplies package</p>
+                                <div class="d-grid mx-auto">
+                                    <button type="button" class="btn btn-lg btn-primary">Sign Up</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-12 col-lg-4 pricing-column">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Birds</h3>
+                            </div>
+                            <div class="card-body">
+                                <h2>From $69 / mo</h2>
+                                <p>Fish tank maintenance.</p>
+                                <p>Aquarium supplies on demand</p>
+                                <p>Bi-weekly vet visits</p>
+                                <div class="d-grid mx-auto">
+                                    <button type="button" class="btn btn-lg btn-primary">Sign Up</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div class="card">
-                <div class="card-header">
-                    <h3>Cats</h3>
-                </div>
-                <div class="card-body">
-                    <h2>From $49 / mo</h2>
-                    <p>Bi-weekly vet visits</p>
-                    <p>Weekly massages and grooming visits</p>
-                    <p>Basic supplies package</p>
-                    <button type="button">Sign Up</button>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                    <h3>Birds</h3>
-                </div>
-                <div class="card-body">
-                    <h2>From $69 / mo</h2>
-                    <p>Fish tank maintenance.</p>
-                    <p>Aquarium supplies on demand</p>
-                    <p>Bi-weekly vet visits</p>
-                    <button type="button">Sign Up</button>
-                </div>
-            </div>
-
         </section>
-
 
         <!-- Call to Action -->
-
         <section id="cta">
-
-            <h3>Find a friend, find purpose, today.</h3>
-            <button type="button">Download</button>
-            <button type="button">Download</button>
-
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="header-copy">
+                        <h3>Find a friend, find purpose, today.</h3>
+                        <button type="button" class="btn btn-outline-secondary btn-lg btn-visit-secondary header-btn">
+                            <i class="fa-regular fa-calendar header-btn-icon"></i>
+                            Schedule a visit
+                        </button>
+                        <button type="button" class="btn btn-outline-secondary btn-lg header-btn">
+                            <i class="fa-solid fa-address-card header-btn-icon"></i>
+                            Contact us
+                        </button>
+                    </div>
+                </div>
+            </div>
         </section>
 
-
-        <!-- Footer -->
-
-        <footer id="footer">
-
-            <p>© Copyright Naipets, 2022</p>
-
-        </footer>
     </main>
 
-    <footer></footer>
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="social-icons">
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram social-icon"></i></a>
+            <a href="https://twitter.com/"><i class="fa-brands fa-twitter social-icon"></i></a>
+            <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube social-icon"></i></a>
+            <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in social-icon"></i></a>
+        </div>
+        <p>© Copyright Naipets, 2022</p>
+    </footer>
 
 </body>
 
